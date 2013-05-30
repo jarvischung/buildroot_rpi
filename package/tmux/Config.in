@@ -1,0 +1,6 @@
+config BR2_PACKAGE_TMUX
+	bool "tmux"
+	select BR2_PACKAGE_NCURSES
+        select BR2_PACKAGE_LIBEVENT
+	help
+          http://tmux.sourceforge.net/
